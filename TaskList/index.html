@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Save task Into Storage</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+
+    <div id="content">
+        <div style="display:none;" id='alertMSG'> Task Added! </div>
+        <div class="container">
+
+            <h1>Your Daily Tasks</h1>
+            <hr>
+            <div class="row">
+                <div class="six columns">
+                    <h5 style="text-align:left;"> Add a Task</h5>
+                    <form action="#" id="form">
+                        <label for="tasks"></label>
+                        <textarea id="task" class="u-full-width"></textarea>
+                        <input type="submit" class="button u-full-width button-primary" value="Add now">
+                    </form>
+                </div>
+                <!--.six-->
+                <div class="six columns">
+                    <h5>All Tasks</h5>
+                    <div id="task-list"></div>
+                </div>
+                <!--.six-->
+            </div>
+        </div>
+    </div>
+    <!--#contenido-->
+
+    <script src="assets/js/app.js"></script>
+    <div style="margin-top: 250px;margin-left: 50px;">
+                <hr>
+        <p><i>With ❤ JS by-</i> Rasel</p> 
+
+    </div>
+</body>
+
+</html>
